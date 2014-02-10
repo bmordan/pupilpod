@@ -1,39 +1,15 @@
-CakePHP
-=======
+#PupilPod
+##Management Information System **MIS 2.0**
+###Evelina Hospital School
 
-[![CakePHP](http://cakephp.org/img/cake-logo.png)](http://www.cakephp.org)
+This is a second version of a pupil management system created for the school be Will Evans of Fractal Web Designs (Bristol). Built in CakePHP 2.3 this second version includes:
 
-CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC.
-Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
+- Responsive design
+- Multi-pupil processing *staff can add session notes to many pupils on one form*
+- Better Registers *view and edit whole classes, page through weeks
+- Auto email function completed *return attendance to schools via email
+- Target module added
+- Curriculum tree added *organise lesson plans by Keystage and subject pick and add to many pupils
+- Reports orgainised by subject
 
-Some Handy Links
-----------------
-
-[CakePHP](http://www.cakephp.org) - The rapid development PHP framework
-
-[Cookbook](http://book.cakephp.org) - THE Cake user documentation; start learning here!
-
-[Plugins](http://plugins.cakephp.org/) - A repository of extensions to the framework
-
-[The Bakery](http://bakery.cakephp.org) - Tips, tutorials and articles
-
-[API](http://api.cakephp.org) - A reference to Cake's classes
-
-[CakePHP TV](http://tv.cakephp.org) - Screen casts from events and video tutorials
-
-[The Cake Software Foundation](http://cakefoundation.org/) - promoting development related to CakePHP
-
-Get Support!
-------------
-
-[Our Google Group](https://groups.google.com/group/cake-php) - community mailing list and forum
-
-[#cakephp](http://webchat.freenode.net/?channels=#cakephp) on irc.freenode.net - Come chat with us, we have cake.
-
-[Q & A](http://ask.cakephp.org/) - Ask questions here, all questions welcome
-
-[Lighthouse](https://cakephp.lighthouseapp.com/) - Got issues? Please tell us!
-
-[![Bake Status](https://secure.travis-ci.org/cakephp/cakephp.png?branch=master)](http://travis-ci.org/cakephp/cakephp)
-
-![Cake Power](https://raw.github.com/cakephp/cakephp/master/lib/Cake/Console/Templates/skel/webroot/img/cake.power.gif)
+I appologise in advance for my very wet (not DRY) scruffy paper2.css file. And I abandoned the Cake way of marking up SQL queries. I know how to write SQL so for the more tricky statements I have just written it my self.
