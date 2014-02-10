@@ -1,0 +1,32 @@
+@CHARSET "ISO8859-1";
+#A4{
+	background:#fff;
+	width:793.700787402px;
+	margin:auto;}
+#pupils-report-pupil-header{
+	width:50%;
+	text-align:center;}
+body,p,h1,legend{font-family: 'Arial', cursive;}	
+legend{
+	font-size: 200%;
+	color: #7c7c7c;}
+fieldset{
+	margin-bottom: 20px;
+	border: solid 2px #7c7c7c;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;}	
+ul,li{
+	list-style-type: none;
+	font-family: 'Arial', cursive;}		
+i{color:#7c7c7c;}	
+img{max-width:100%;}
+h1{	
+	font-size: 200%;
+	margin-left:16.77px;}
+h2{
+	font-size:130%;
+	margin-left: 32px;}
+h3{
+	display: inline;
+}

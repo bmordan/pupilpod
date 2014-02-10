@@ -1,0 +1,310 @@
+html,body{margin: 0px;width: 100%;}
+img{max-width:100%;}
+h1{font-family: 'Comfortaa', cursive;font-size:4em;}
+a.h1{font-family: 'Comfortaa', cursive;font-size:4em;}
+h2{font-family: 'Comfortaa', cursive;font-size:2em;}
+h3{font-family: 'Comfortaa', cursive;font-size:1.5em;}
+h4{font-family: 'Open Sans', cursive;font-size:1em;color:#fff;background:#e40a74;width:98%;padding:1%;}
+h5{font-family: 'Open Sans', cursive;font-size:1em;color:#fff;background:#fb6e00;width:98%;padding:1%;}
+fieldset{width:95%;margin:auto;}
+p,a,form,input,label,li,table,legend{font-family: 'Open Sans', cursive;color:#000;text-decoration: none;font-size:1em;}
+li h2{font-size:1.5em;}
+li{list-style-type: none;}
+#header{
+	background:#68b821;	
+	z-index: 1;
+	padding: 0% 0% 0% 0%;
+	width:100%;
+	margin: -5% 0% 0% 0%;
+	position: fixed;
+	-webkit-box-shadow: 0 8px 6px -6px #0E0E0E;
+	-moz-box-shadow: 0 8px 6px -6px #0E0E0E;
+	box-shadow: 0 8px 6px -6px #0E0E0E;}
+#logo-white{width: 12%;padding:0.5% 0% 0% 1%;float:left;}
+#flash{
+	float:left;
+	text-align:left;
+	font-family: 'Open Sans', cursive;
+	font-weight: bold;
+	font-size:1em;
+	color:#fdc323;
+	width:60%;
+	padding:1%;
+	margin: 0% 0% 0% 2%;}
+#paper{width:68%;margin: 5% auto 0% auto;}
+#pupil{width: 65%;float:left;margin:2% 0% 2% 11%;padding: 1%;}
+#att-pupil{width:70%;}
+#pid{float:left;margin: -3% 0% 0% 2%;}
+#att-pupil
+#add-activity-icon{float:right;margin-top:-6%;}
+#award{}
+#A4{width:793.700787402px;height:1122.519685039px;border: 1px solid #777;margin:auto;padding:5%;}
+.ui-autocomplete{max-height: 33%; overflow-y: scroll; overflow-x: hidden;width:10%;}
+.icons-home{float:right;}
+.icons-li{margin:0% 0% 2% 0%;}
+.icons-list-img{margin:2% 2% -4% 0%;}
+.pupilviewlist{text-align: center; width: 80%;}
+.keyvalue{width:100%;float:right;font-size:90%;}
+.deleteActivity{float:right;}
+.atriumblur{
+	background: url(../img/atriumblur.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.skybeamsblur{
+	background: url(../img/skybeamsblur.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.pokadots{
+	background: url(../img/pokadots.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.grillblur{
+	background: url(../img/grillblur.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.activityblur{
+	background: url(../img/activityblur.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.ofstedblur{
+	background: url(../img/ofstedblur.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}  
+.box{
+	width: 43%;
+	float: left;
+	background:#fff;
+	  -moz-box-shadow:    3px 3px 5px 0px #777;
+	  -webkit-box-shadow: 3px 3px 5px 0px #777;
+	  box-shadow:         3px 3px 5px 0px #777;	
+	border: solid 1px #a2b2b2;
+	overflow:auto;
+	margin: 0% 2% 2% 0%;
+	padding: 2%;}
+.br{clear:both;}
+.pad{padding: 2%;}
+.r{float:right;}
+.l{float:left;}
+.ui-menu-item{font-size: 1em;}
+div.input.date{clear:both;}
+form{padding:5%;}
+label{display: block;margin: 1% 0% 1% 0%;}
+input{padding:1%;width:65%;}
+input[type='submit']{width:33%; margin: 2% 0% 0% 0%;clear:both;}
+input[type='textarea']{width:98%;}
+.formsection{
+	width: 86.5%;
+	background:#fff;
+	  -moz-box-shadow:    3px 3px 5px 0px #777;
+	  -webkit-box-shadow: 3px 3px 5px 0px #777;
+	  box-shadow:         3px 3px 5px 0px #777;	
+	border: solid 1px #a2b2b2;
+	padding: 5%;
+	margin-bottom:3%;
+	overflow:auto;}
+.preview-email{clear:both;margin:0% 0% 25% 0%}	
+#PupilFirstName, #PupilLastName{width:45%;float: left;margin:1%;}
+#PupilDateOfBirthMonth,#PupilDateOfBirthDay,#PupilDateOfBirthYear{font-size: 1em;}
+#PupilEthnicity,#TargetOptionId{padding:1%;font-size:1em;}
+#TargetTarget{width:100%;}
+#ActivityActivity, #ActivityTitle{width:99%;}
+.target-list-display{display:inline;width:70%;float:left;}
+.regular-checkbox {display: none;}
+.regular-checkbox + label {
+	font-size: 1em;
+	margin: 1%;
+	float: left;
+	border: 1px solid #777;
+	border-radius: 2px;
+	display: inline-block;
+	position: relative;}
+.regular-checkbox + label:active, .regular-checkbox:checked + label:active {}
+.regular-checkbox:checked + label {
+	background-color: #68b821;
+	color: #fff;}	
+.regular-checkbox:checked + label:after {
+	content: ' ';
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #fff;}
+.big-checkbox + label {padding: 18px;}
+.big-checkbox:checked + label:after {left: 6px;}
+
+table{border: none;width: 90%;}td{padding:5px;}
+td.key{text-align:right;padding:0.5%;color:#777;}
+td.value{text-align:left;padding:0.5%;}	
+.att-getRegister{text-align:center;color:#777777;}
+.att-h1{font-size: 1.4em;text-align:centre;}
+.att-name{color:#000;font-size:.85em;display:inline;text-decoration:underline;}
+.att-section{width: 100%;margin:auto;clear:both;}
+.att-select{width: 7.5%;font-size: 1em;}
+.att-date{width:12%;}
+.att-comment{width: 40%;}
+.att-list{background:#e40a74;padding:1%;text-align:right;}
+.att-comment{font-size: .5em;width:95%;}
+.att-nav-section{width: 33%;float:left}
+.att-table{width:100%;font-size:1em;text-align:center;}
+.att-name-form{font-size:.8em;width:130%;margin:0% 4% 0% -14%;text-align:right;border:1px solid #777;}
+.att-code-form{width:46%;font-size:0.9em;float:left;margin:0% 0% 0% 4%;}
+.att-headers-report{text-align:right;border: 1px solid #42a1ca;font-size:70%;}
+.att-code-report{border: 1px solid #42a1ca;width: 3%;color: #000;}
+.att-code-space{font-size:50%;width:1%;}
+.att-school-email-form{float:left;font-size:85%;margin: 0% 0% 1.5% 3%;}
+.att-pupil-name{margin:0% 0% -6% 6%;}
+.att-terms{background:#e40a74;padding:1%;color:#fff;width:94.5%;}
+.selected{background:#e40a74;color:#fff;}
+/* outcome form */
+.outcomes-form-item{clear:both;margin: auto;width:98%;}
+.outcomes-form-dropdown{float:left;padding:0% 0% 0% 2%;}
+.outcomes-form-dropdown select{font-size:108%;background:#fb6e00;color:#000;padding:2%;width:104%;border: 0px;}
+
+.outcomes-form-award{
+	opacity: 0;
+	height:108px;width:80px;}
+.outcomes-form-award  + label{
+	background-image: url(http://10.23.28.5/mis/img/icons/award-gray.png);
+	height:108px;width:80px;
+	margin: -108px 0px 0px 0px;}
+.outcomes-form-award:checked + label{
+	background-image: url(http://10.23.28.5/mis/img/icons/award-red.png);
+	height:108px;width:80px;
+	margin: -108px 0px 0px 0px;}
+	
+
+.outcomes-form-expected-holder{width:20%;float:left;margin: 0% 0% 0% 10%;}
+.outcomes-form-expected{
+	opacity: 0;
+	height:30px;width:150px;}
+.outcomes-form-expected  + label{
+	background:#fff;
+	border: 1px solid #777;
+	border-radius: 2px;
+	text-align:center;
+	padding: 11px 0px 0px 0px;
+	height:30px;width:150px;
+	margin: -30px 0px 0px 0px;}
+.outcomes-form-expected:checked + label{
+	color:#fff;
+	background:#68b821;
+	height:30px;width:150px;
+	margin: -30px 0px 0px 0px;}	
+.outcomes-form-input{width:92%;margin: 2%;padding:2%;}
+#outcomes-baseline-box{width: 50px;margin: 0% 0% 0% 5%;text-align:center;}
+
+.reports-targets{padding:1%;background:#e40a74;color:#fff;font-weight:bold;font-size:108%;}
+.reports-table{width:100%;font-size:80%;}
+.reports-table td{padding:0.4%;}
+.reports-fieldset{margin-bottom: 3% 0% 3% 0%;}
+.reports-activities-box{margin: 2%;background:#fdc323;}
+.report-table-left{text-align:left;width:60%;text-align:right;}
+.report-table-right{text-align:center;width:15%;background:#fdc323;}
+
+.notes-table{width:100%;font-size:80%;}
+#reports-award{float:right;}
+/* iPads LANDSCAPE */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape){
+	h1{font-size:2em;}
+	p,a,form,input,label,legend{font-size:1.2em;}
+	form{padding:3.5%;}
+	label{display: block;margin: 1% 0% 1% 0%;font-size:1em;}
+	input{padding:1%;width:90%;margin: 1% 0% 1% 0%;}
+	#header{padding: 1% 0% 0% 0%;width:100%;margin: -11% 0% 0% 0%;}
+	#logo-white{width: 20%;padding:1% 0% 0% 1%;}	
+	#paper{width:100%;margin: 10% auto 0% 0%;}
+	#PupilFirstName, #PupilLastName{width:43%;float: left;margin:1%;}
+	#att-pupil{width:70%;}
+	.formsection{width: 90%;padding: 3.5%;margin: 2% 0% 3.5% 1.2%;}
+	.att-h1{font-size: 1.2em;text-align:centre;}
+	.att-section{width: 90%;margin:0% 0% 0% 2%;clear:both;}
+	.att-table{width:103%;font-size:1em;}
+	.att-code-form{width:46%;font-size:0.8em;}
+	.att-pupil-name{margin:0% 0% -3% 5%;}
+	.att-terms{background:#e40a74;padding:1%;color:#fff;width:98%;}
+	.target-list-display{display:inline;width:70%;float:left;font-size:95%;}
+	.icons-home{float:right;}
+	.keyvalue{width:100%;float:right;font-size:80%;}
+	.box{
+	width: 43%;
+	float: left;
+	margin: 0% 0% 2% 2%;
+	padding: 0% 2% 2% 2%;}
+	.att-school-email-form{float:left;font-size:80%;margin: 0% 0% 1.5% 1.5%;}
+	.outcomes-form-item{clear:both; margin: auto;width:99%;}	
+	.outcomes-form-dropdown{padding:0% 0% 0% 0%;}
+	.outcomes-form-dropdown select{font-size: 90%;}
+	
+	.outcomes-form-expected-holder{width:20%;float:left;margin: 0% 0% 0% 10%;font-size:90%;}	
+	.outcomes-form-expected{
+		opacity: 0;
+		height:50px;width:150px;}
+	.outcomes-form-expected  + label{
+		background:#fff;
+		border: 1px solid #777;
+		border-radius: 2px;
+		text-align:center;
+		padding: 30px 0px 0px 0px;
+		margin: -50px 20px 0px 0px;}
+	.outcomes-form-expected:checked + label{
+		margin: -50px 20px 0px 0px;}		
+}
+
+/* iPads PORTRAIT */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait){
+	h1{font-size:1.4em;}
+	p,a,form,input,label,legend{font-size:1.2em;}
+	form{padding:3.5%;}
+	#paper{width:95%;margin: 10% auto 0% auto;}
+	#header{padding: 1% 0% 0% 0%;width:100%;margin: -11% 0% 0% 0%;}
+	#logo-white{width: 30%;padding:1% 0% 0% 1%;}	
+	#PupilFirstName, #PupilLastName{width:90%;clear:both;margin:0% 0% 2% 3%;padding:1%;font-size:2em;}
+	#add-activity-icon{float:right;width:30%;margin-top:-8%;}	
+	.box{
+		width: 91.5%;
+		clear:both;
+		margin: 0% 0% 4% 0%;
+		padding: 4%;}
+	.l{clear:both;}
+	.r{clear:both;}
+	.icons-home{float:right;}
+	.att-h1{font-size: 1.2em;text-align:centre;}
+	.att-section{width: 90%;margin:0% 0% 0% 2%;clear:both;}
+	.att-table{width:103%;font-size:1em;}
+	.att-code-form{width:46%;font-size:0.7em;}	
+	.formsection{width: 97%;padding: 2%;margin: 1% 2% 0% 0%;}
+	.att-school-email-form{float:left;font-size:52%;margin: 0% 1.7% 2% 0%;}
+	
+}
+
+@media only screen and (min-width: 120em){
+	#paper{width:95%;margin: 5% 0% 0% 10%;}
+	.box{
+		width: 22%;
+		float: left;
+		background:#fff;
+		  -moz-box-shadow:    3px 3px 5px 0px #777;
+		  -webkit-box-shadow: 3px 3px 5px 0px #777;
+		  box-shadow:         3px 3px 5px 0px #777;	
+		border: solid 1px #a2b2b2;
+		overflow:auto;
+		margin: 0% 2% 2% 0%;
+		padding: 2%;}
+}

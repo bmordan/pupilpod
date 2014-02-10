@@ -1,0 +1,156 @@
+html{margin: auto;width:56%;}
+img{max-width:100%;}
+h1{font-family: 'Comfortaa', cursive;padding: 3%;}
+h2{font-family: 'Open Sans', cursive;}
+h3{font-family: 'Comfortaa', cursive;color:#fdc323;text-align: center;}
+h4,li{font-family: 'Open Sans', cursive;font-size:110%;}
+p,a{font-family: 'Open Sans', cursive;color:#000;text-decoration: none;}
+li{list-style-type: none;}
+
+#sidepod{width: 10%;float:left;}
+#desk{width: 70%; float:right;}
+#wrapper{width:55%; margin: auto; padding: 2%;}
+
+.atrium{
+	background: url(../img/atrium.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.tiles{
+	background: url(../img/tiles.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.pokadots{
+	background: url(../img/pokadots.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.pigblur{
+	background: url(../img/pigblur.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}  
+.box{
+	background: url(../img/pigblur.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	overflow: auto;
+	margin:2%;
+	width: 99%;
+	padding: 2%;}
+.blue{
+	border: solid 1px #777;
+  -moz-box-shadow:    3px 3px 5px 0px #777;
+  -webkit-box-shadow: 3px 3px 5px 0px #777;
+  box-shadow:         3px 3px 5px 0px #777;}
+.l{width: 46%; float:left;}
+.r{width: 46%; float:right;}
+ 
+form, input{
+	display: block;
+	margin: 2%;
+	padding: 2%;
+	font-size: 100%;
+	font-family: 'Open Sans', cursive;
+}
+label{
+	display: block;
+	font-size: 108%;
+	font-weight: bold;
+	font-family: 'Open Sans', cursive;
+	margin: 0% 0% 0.5% 0%;
+}
+input{width:90%;}
+input[type='submit']{width:50%; margin: auto;clear:both;}
+input.date{margin: 0% 0% 0% 1%;}
+input#PupilFirstName{
+	width: 40%;
+	float: left;}
+input#PupilLastName{
+	width: 40%;
+	float: right;}
+	
+div.input.date{
+	margin: 2% 0% 0% 0%;
+	clear:both;
+	width: 100%;}
+select#PupilDateOfBirthDay, select#PupilDateOfBirthMonth, select#PupilDateOfBirthYear{
+	padding: 1%;
+	font-size: 150%;}
+#PupilNotes{width: 99%;}	
+#PupilAddress1,#PupilAddress2,#PupilCity{width: 75%;}
+#PupilPostcode{width: 25%;}
+
+.regular-checkbox {display: none;}
+.regular-checkbox + label {
+	margin: 2%;
+	float: left;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;}
+.regular-checkbox + label:active, .regular-checkbox:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);}
+.regular-checkbox:checked + label {
+	background-color: #68b821;
+	border: 1px solid #345C10;
+	color: #fff;}
+.regular-checkbox:checked + label:after {
+	content: ' ';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #fff;}
+.big-checkbox + label {padding: 18px;}
+.big-checkbox:checked + label:after {
+	font-size: 28px;
+	left: 6px;}
+	
+	
+
+	
+	
+	
+
+/* iPads *//* iPads *//* iPads *//* iPads *//* iPads *//* iPads */
+/* iPads *//* iPads *//* iPads *//* iPads *//* iPads *//* iPads */
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 48em){
+		.box{	
+			width:90%;
+			margin: auto;
+			clear: both;
+			margin-bottom: 1%;}
+		
+}
+
+/* phones *//* phones *//* phones */
+/* phones *//* phones *//* phones */
+/* phones *//* phones *//* phones */
+/* phones *//* phones *//* phones */
+
+@media screen and (max-width: 32em){
+
+}
