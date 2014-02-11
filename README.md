@@ -1,4 +1,4 @@
-#PupilPod
+![PupilPod](/app/webroot/img/pupilpod_shadow.png "PupilPod")
 ##Management Information System **MIS 2.0**
 ###Evelina Hospital School
 
