@@ -5,7 +5,7 @@ h1,h2,h3{font-family: 'Comfortaa', cursive;}
 h4,h5{font-family: 'Open Sans', cursive;color:#fff;}
 h4{background:#e40a74;}
 h5{background:#fb6e00;}
-p,a,form,input,label,li,table,legend,textarea{font-family: 'Open Sans', cursive;color:#000;text-decoration: none;list-style-type:none;}
+p,a,form,input,label,li,table,legend,textarea, .message{font-family: 'Open Sans', cursive;color:#000;text-decoration: none;list-style-type:none;}
 label{display: block;}
 td{padding:1%;}
 #paper{position:absolute;}
@@ -31,7 +31,20 @@ td{padding:1%;}
 #loginlogo{width:95%;float:right;margin:0% 0% 15% 0%;}
 #UserUsername, #UserPassword{width:60%;margin:2% 0% 2% 18%;}
 #authMessage{text-align:center;margin: 8% 0% 0% 0%;}
-#PupilNotes{width:90%;margin:0% 0% 0% 5%;}	
+#PupilNotes{width:90%;margin:0% 0% 0% 5%;}
+#flashMessage{
+	background:#fdc323;
+	padding:2%;
+	color:#e40a74;
+	font-size:150%;
+	-webkit-box-shadow: 0 8px 6px -6px #0E0E0E;
+	-moz-box-shadow: 0 8px 6px -6px #0E0E0E;
+	box-shadow: 0 8px 6px -6px #0E0E0E;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px; /* future proofing */
+	-khtml-border-radius: 8px; /* for old Konqueror browsers */
+}
 textarea{border: 2px solid #c7c7c7;}	
 .icons-home{float:right;}
 .form-item{clear:both;}	

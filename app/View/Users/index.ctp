@@ -34,7 +34,11 @@
 		<h2>Activities</h2>
 		<div><ul>
 			<?php
-				echo '<li class="icons-li">'.$this->Html->image('icons/globe.png',array('url'=>array('controller'=>'activitys','action'=>'index'),'title'=>'manage activities','class'=>'icons-list-img')).$this->Html->link('Manage Activities',array('controller'=>'activitys','action'=>'index')).'</li>';
+				//render different link for dialysis area
+				if($this->session->read('Auth.User.option_id') == '1040'){
+					$page = 'dindex';}else{$page = 'index';}
+				
+				echo '<li class="icons-li">'.$this->Html->image('icons/globe.png',array('url'=>array('controller'=>'activitys','action'=>$page),'title'=>'manage activities','class'=>'icons-list-img')).$this->Html->link('Manage Activities',array('controller'=>'activitys','action'=>$page)).'</li>';
 			?>
 		</ul></div>
 	</div>	

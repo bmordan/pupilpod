@@ -1,10 +1,11 @@
 <script>$(document).ready(function($) {$('html').addClass('activityblur');});</script>
 
-<div class="forsection">
+<div class="formsection">
 <?php 
 	echo $this->form->create('dactivitys');
 	echo $accordion;
 	echo $this->form->end('Select above');
+	echo '<li style="float:right;margin: 0% 5% 0% 0%;">'.$this->html->link('Show Hidden Activities',array('action'=>'show')).'</li>';	
 	echo '<li id="add-activity-icon">'.$this->Html->image('icons/globe-add.png',array('url'=>array('controller'=>'activitys','action'=>'add',$staff_id),'title'=>'add to activities','class'=>'icons-list-img')).$this->Html->link('add an activity',array('controller'=>'activitys','action'=>'add')).'</li>';
 ?>
 </div>

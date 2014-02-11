@@ -106,7 +106,10 @@ class Activity extends AppModel{
 				foreach($areas as $area => $subjects){
 					$html .= '<h3>'.ClassRegistry::init('Option')->getOption($area).'</h3>';
 					//open area
-					$html .= '<div class="subjects" style="background:'.$colors[$c].';">';++$c;
+					if($c < count($colors)){
+						$html .= '<div class="subjects" style="background:'.$colors[$c].';">';++$c;
+					}
+					
 						
 						foreach($subjects as $header => $activities){
 							$html .= '<h3>'.ClassRegistry::init('Option')->getOption($activities['activities']['subject_id']).'</h3>';

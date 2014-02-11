@@ -44,6 +44,9 @@ class ActivitysController extends AppController{
 		$this->set('staff_id',$this->Auth->user('id'));
 		$this->set('dus',ClassRegistry::init('Pupil')->getDialysisPupils());
 		if($this->request->is('post')){
+			if($this->data['Activity']['pupil_id'] == null && $this->data['Activity']['area_id'] == 1040){
+				$this->Session->setFlash("Don't forget to select your pupil");
+				$this->redirect(array('action'=>'add'));die;}
 			$this->Activity->save($this->data);
 			if($this->data['Activity']['area_id'] == 1040){// send DUS team to dindex
 				$this->redirect(array('action'=>'dindex',$this->Activity->getdPath($this->Activity->getLastInsertId())));
@@ -81,7 +84,7 @@ class ActivitysController extends AppController{
 		}		
 	}
 	
-	public function hide($id){
+	public function hide($id){//this is triggered by the eye icon and hides the activity
 		$index = substr($this->Activity->getPath($id),0,-1)."-";
 		$this->Activity->query("UPDATE activities SET hide=1 WHERE id =".$id);
 		$this->redirect(array('action'=>'index',$index));
