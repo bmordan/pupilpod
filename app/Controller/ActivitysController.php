@@ -5,7 +5,7 @@ class ActivitysController extends AppController{
 		//control the accordion by passing the index (0 index like an array) of the activity to the view '---' means all closed '11-' would be second arrordion, second subject open all activities closed etc
 		
 		if(!empty($index)){$this->set('index',$index);}else{$this->set('index','---');}
-		$staff_id = 31;
+		$staff_id = $this->Auth->user('id');
 		$structure = $this->Activity->getAccordion();
 		$this->set('accordion',$this->Activity->getHtml($structure,$staff_id));
 		$this->set('staff_id',$staff_id);
@@ -21,7 +21,7 @@ class ActivitysController extends AppController{
 		//control the accordion by passing the index (0 index like an array) of the activity to the view '---' means all closed '11-' would be second arrordion, second subject open all activities closed etc
 		
 		if(!empty($index)){$this->set('index',$index);}else{$this->set('index','---');}
-		$staff_id = 26;
+		$staff_id = $this->Auth->user('id');
 		$structure = $this->Activity->getdAccordion();
 		$this->set('accordion',$this->Activity->getdHtml($structure,$staff_id));
 		$this->set('staff_id',$staff_id);
@@ -41,7 +41,7 @@ class ActivitysController extends AppController{
 	public function add(){
 		$this->set('areas',ClassRegistry::init('Option')->getAreas());
 		$this->set('subjects',ClassRegistry::init('Option')->getSubjects());
-		$this->set('staff_id',31);
+		$this->set('staff_id',$this->Auth->user('id'));
 		$this->set('dus',ClassRegistry::init('Pupil')->getDialysisPupils());
 		if($this->request->is('post')){
 			$this->Activity->save($this->data);
@@ -56,7 +56,7 @@ class ActivitysController extends AppController{
 	public function edit($id){
 		$this->set('areas',ClassRegistry::init('Option')->getAreas());
 		$this->set('subjects',ClassRegistry::init('Option')->getSubjects());
-		$this->set('staff_id',31);	
+		$this->set('staff_id',$this->Auth->user('id'));	
 		if (!$id) {throw new NotFoundException(__('je crois que non'));}
 		$activity = $this->Activity->findById($id);
 		if (!$activity) {throw new NotFoundException(__('je crois que non'));}
@@ -89,7 +89,7 @@ class ActivitysController extends AppController{
 	
 	public function show(){
 		if(!empty($index)){$this->set('index',$index);}else{$this->set('index','---');}
-		$staff_id = 31;
+		$staff_id = $this->Auth->user('id');
 		$structure = $this->Activity->getAccordion(1);
 		$this->set('accordion',$this->Activity->getHtml($structure,$staff_id));
 		$this->set('staff_id',$staff_id);

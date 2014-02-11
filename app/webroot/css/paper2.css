@@ -11,16 +11,27 @@ td{padding:1%;}
 #paper{position:absolute;}
 #logo-white{float:left;}
 #att-nav-table{width: 90%; border: 0px; margin: auto;}
-#header{
-	background:#68b821;	
+#header{	
 	z-index: 10;
 	padding: 0% 0% 0% 0%;
 	width:100%;
 	margin: 0% 0% 0% 0%;
-	position: fixed;
+	position: relative;
 	-webkit-box-shadow: 0 8px 6px -6px #0E0E0E;
 	-moz-box-shadow: 0 8px 6px -6px #0E0E0E;
 	box-shadow: 0 8px 6px -6px #0E0E0E;}
+#loginbox{background:#e40a74;padding:2%;
+	-webkit-box-shadow: 0 8px 6px -6px #0E0E0E;
+	-moz-box-shadow: 0 8px 6px -6px #0E0E0E;
+	box-shadow: 0 8px 6px -6px #0E0E0E;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px; /* future proofing */
+	-khtml-border-radius: 8px; /* for old Konqueror browsers */	}
+#loginlogo{width:95%;float:right;margin:0% 0% 15% 0%;}
+#UserUsername, #UserPassword{width:60%;margin:2% 0% 2% 18%;}
+#authMessage{text-align:center;margin: 8% 0% 0% 0%;}
+#PupilNotes{width:90%;margin:0% 0% 0% 5%;}	
 textarea{border: 2px solid #c7c7c7;}	
 .icons-home{float:right;}
 .form-item{clear:both;}	
@@ -118,6 +129,7 @@ fieldset{margin: 0% 0% 10% 0%;}
 	#paper{width:100%;}
 	.box, .formsection{display:none;}
 	#att-section{display:none;}
+	#loginbox{display:none;}	
 }
 @media only screen and (min-width: 22em) and (max-width: 37em){/* phones */
 	h1{font-size:4em;}
@@ -145,6 +157,7 @@ fieldset{margin: 0% 0% 10% 0%;}
 	#TargetTarget{width:99%; margin:auto;}
 	#targets-dropdown{width:100%;font-size: 1em;}
 	#outcomes-eval, #outcomes-next{width: 98%;}
+	#PupilFirstName, #PupilLastName, #PupilAddress1, #PupilAddress2, #PupilCity, #PupilPostcode, #PupilLea, #PupilSchool{width:80%;margin:0% 0% 4% 8%;}
 	textarea#outcomes-eval{height: 100px;}	
 	a.att-name{font-size:60%;}
 	.att-table{margin:auto;width:100%;}	
@@ -191,12 +204,15 @@ fieldset{margin: 0% 0% 10% 0%;}
 	h4{font-size:1em;width:98%;padding:1%;}
 	h5{font-size:1em;width:98%;padding:1%;}
 	p,a,form,input,label,li,table,legend,select{font-size:1em;}
+	input, label{display:inline-block;margin:2%;}
+	label{width:28%;text-align:right;}
 	#logo-white{width: 40%;padding:0.5em 0em 0.5em 0.5em;float:left;}
 	#paper{width:90%;margin:10% 0% 5% 5.5%;}
 	#add-activity-icon{margin: 5% 0% 5% 5%; clear:both;}
 	#att-section{width: 100%;margin: auto;}
 	#targets-dropdown{width:100%; margin:auto;}
 	#outcomes-eval, #outcomes-next{width: 98%;}
+	#PupilFirstName, #PupilLastName, #PupilAddress1, #PupilAddress2, #PupilCity, #PupilPostcode, #PupilLea, #PupilSchool{width:58%;}	
 	textarea#outcomes-eval{height: 120px;}
 	.att-table{margin:auto;width:100%;}	
 	.att-code-form{width: 49%;font-size:75%;}
@@ -247,6 +263,8 @@ fieldset{margin: 0% 0% 10% 0%;}
 	#att-section{width: 100%;margin: auto;}
 	.att-table{margin:auto;width:75%;}
 	#outcomes-eval, #outcomes-next{width: 98%;margin: 2% auto 2% auto;}
+	#loginbox{width:30%;margin:10% auto 0% auto;}
+	#PupilFirstName, #PupilLastName, #PupilAddress1, #PupilAddress2, #PupilCity, #PupilPostcode, #PupilLea, #PupilSchool{width:90%;}	
 	textarea#outcomes-eval{height: 180px;}
 	.icons-home{width: 3em;}
 	.icons-list-img{margin:0% 5% -2% 0%;}
@@ -288,8 +306,12 @@ fieldset{margin: 0% 0% 10% 0%;}
 	#att-section{width: 100%;margin: auto;}
 	#outcomes-eval{width: 38%;margin: 5%;float:left;}
 	#outcomes-next{width: 38%;margin: 5%;float:right;}
+	#loginbox{width:40%;margin:10% auto 0% auto;}
+	#PupilFirstName, #PupilLastName, #PupilAddress1, #PupilAddress2, #PupilCity, #PupilPostcode, #PupilLea, #PupilSchool{width:58%;}	
 	textarea#outcomes-eval{height:200px;}	
 	textarea#outcomes-next{height:200px;}
+	input, label{display:inline-block;margin:2%;}
+	label{width:28%;text-align:right;}	
 	h1{font-size:4em;}
 	a.h1{font-size:4em;}
 	h2{font-size:2.2em;}

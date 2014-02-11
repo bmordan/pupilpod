@@ -4,7 +4,7 @@
 <?php echo $this->Form->create('User'); ?>
 
 <?php
-	echo '<fieldset><legend>Add User</legend>';
+	echo '<fieldset><legend>Edit User</legend>';
 	echo $this->Form->input('username',array('label' => false,'placeholder' => "Username?"));
 	echo $this->Form->input('password',array('label' => false,'placeholder' => "Password?"));
 	echo '</fieldset>';

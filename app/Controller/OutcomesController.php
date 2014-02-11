@@ -30,7 +30,7 @@ class OutcomesController extends AppController{
 				$this->set('forms',$forms);
 			}else{
 				$this->Outcome->processForms($this->data,$date);
-				$this->redirect(array('controller'=>'Staffs','action'=>'index',31));
+				$this->redirect(array('controller'=>'Staffs','action'=>'index',$this->Auth->user('id')));
 			}
 			
 		}

@@ -64,7 +64,7 @@ class NotesController extends AppController{
 	public function comment($staff_id,$pupil_id,$date = null){
 		if(empty($date)){$date = date('Y-m-d',time());}
 		$this->set('pupil_id',$pupil_id);
-		$this->set('staff_id',31);
+		$this->set('staff_id',$this->Auth->user('id'));
 		$this->set('date',$date);
 		$this->set('name',ClassRegistry::init('Pupil')->getName($pupil_id));
 		$this->set('subjects',ClassRegistry::init('Outcome')->getSubjects($pupil_id));

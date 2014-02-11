@@ -29,9 +29,9 @@
 		<?php
 			
 			echo $this->Html->image('logo-black.png',array('id'=>'logo-white'));
-			echo $this->Html->image('icons/spanner.png',array('url'=>array('controller'=>'users','action'=>'manage'),'class'=>'icons-home','title'=>'Settings'));
+			echo $this->Html->image('icons/spanner.png',array('url'=>array('controller'=>'users','action'=>'menu'),'class'=>'icons-home','title'=>'Settings'));
 			echo $this->Html->image('icons/media-eject.png',array('url'=>array('controller'=>'users','action'=>'logout'),'class'=>'icons-home','title'=>'Log Off'));
-			echo $this->Html->image('icons/home.png',array('url'=>array('controller'=>'staffs','action'=>'index'),'class'=>'icons-home','title'=>'Home'));
+			echo $this->Html->image('icons/home.png',array('url'=>array('controller'=>'users','action'=>'index'),'class'=>'icons-home','title'=>'Home'));
 			echo '<div id="flash">'.$this->Session->flash().'</div>';
 			
 		?>

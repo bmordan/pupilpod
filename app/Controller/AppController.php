@@ -32,9 +32,26 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+
 	public $helpers = array('Html','Form','Session','Js');
+
+    public $components = array(
+        'Session',
+        'Auth' => array(
+            'loginRedirect' => array(
+                'controller' => 'users',
+                'action' => 'index'
+            ),
+            'logoutRedirect' => array(
+                'controller' => 'users',
+                'action' => 'login',
+                'home'
+            )
+        )
+    );
 	
 	public function beforeFilter(){
-	Configure::write('webroot','http://10.23.28.5/mis');
+		Configure::write('webroot','http://10.23.28.5/mis');
+		$this->Auth->allow('login','logout');
 	}
 }

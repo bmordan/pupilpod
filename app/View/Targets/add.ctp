@@ -23,7 +23,7 @@
 <div class="box">
 	<?php
 		$tar = 0;foreach($targets as $k => $t){foreach($t as $sub => $list){$tar = $tar+count($list);}}
-		echo '<label>'.ClassRegistry::init('Staff')->getStaff($staff_id).' | '.$tar.' Targets Set</label>';
+		echo '<label>'.$this->session->read('Auth.User.fullname').' | '.$tar.' Targets Set</label>';
 		foreach($targets as $n => $option_id){
 			foreach($option_id as $subject => $tars){ // subject header
 			 echo '<fieldset><legend><h3>'.ClassRegistry::init('Option')->getOption($subject).'</h3></legend>';
