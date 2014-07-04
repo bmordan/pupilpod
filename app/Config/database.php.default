@@ -65,9 +65,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'root',
-		'password' => 'password',
-		'database' => 'database_name',
+		'login' => 'wevans',
+		'password' => 'bridge378',
+		'database' => 'mis',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
