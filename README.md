@@ -1,4 +1,4 @@
-![PupilPod](/app/webroot/img/pupilpod_shadow.png "PupilPod")
+![PupilPod](./README_assets/logo-git.png)
 ##Pupil Management Information System **MIS 2.0**
 
 This is a pupil management system. Built in CakePHP 2.3 this version includes:
