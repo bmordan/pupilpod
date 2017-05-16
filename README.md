@@ -1,5 +1,5 @@
 ![PupilPod](./README_assets/logo-git.png)
-##Pupil Management Information System **MIS 2.0**
+## Pupil Management Information System **MIS 2.0**
 
 This is a pupil management system. Built in CakePHP 2.3 this version includes:
 
@@ -43,17 +43,17 @@ You can also just look at one pupil's attendance term by term
 
 ![Attendance One Pupil](./README_assets/attendancePerPupil.JPG)
 
-#Pupil Progress
+# Pupil Progress
 
 In addition to recording a pupil's attendance this system will also track their progress.
 
-###Targets
+### Targets
 
 Targets start with either a generic target that each pupil in the school is set, or an individual's personal learning target.
 
 ![Targets](./README_assets/targets.JPG)
 
-###Activities
+### Activities
 
 To achieve targets pupils engage in activities set by the teaching staff. Here they are orgainised by phase.
 
@@ -67,7 +67,7 @@ Once your activities have been selected you can add session attendance, comments
 
 ![Activities Assessment](./README_assets/assessment.JPG)
 
-###Reporting
+### Reporting
 
 When you are ready you can pull a pupils report.
 
@@ -77,7 +77,7 @@ Chose how detailed you want the report to be.
 
 ![Select the Report](./README_assets/reportflow.JPG)
 
-###More
+### More
 
 You get warnings upon deleting data like this.
 
